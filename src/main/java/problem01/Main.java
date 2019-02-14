@@ -28,14 +28,19 @@ public class Main {
 		
 		int goal =number/3; //3으로 나는 몫
 		int rest; //3으로 나머지
+		int a=0;
 		
 		
 		
-		if((number%3) ==0 )
+		if((number%100)==3 )
 		{
-			
+			a++;
+		}
+		else if(number%10==3)
+		{
+			a++;
 		}
 		
-		return 0;
+		return a;
 	}
 }
