@@ -1,6 +1,10 @@
 package problem01;
 
 public class Main {
+	
+	
+	//알고리즘
+	//값을 100,10과 나눈 나머지와  100으로 나눈 나머지에 3이 있으면 각각 두 횟수만큼 박수
 
 	public static void main(String[] args) {
 		for( int i = 1; i <= 100; i++ ) {
@@ -21,6 +25,17 @@ public class Main {
 	}
 	
 	public static int countClap(int number) {
+		
+		int goal =number/3; //3으로 나는 몫
+		int rest; //3으로 나머지
+		
+		
+		
+		if((number%3) ==0 )
+		{
+			
+		}
+		
 		return 0;
 	}
 }
